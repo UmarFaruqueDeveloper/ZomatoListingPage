@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="discription" content="Zomato is an Indian multinational restaurant aggregator "/>
+    <meta name="keywords" content="“restaurants near me”, “food near me”, “bars near me”, “cafe near me”, “vegetarian restaurants”. Zomato ranking on other main keywords like “wine shop near me”, “coffee near me”, “cheap restaurants”"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ListingPage</title>
+    <link rel="icon" href="http://assets.stickpng.com/images/602e65f27b5b5700048a4aa4.png"/>
+    <link rel="stylesheet" href="listing.css"/>
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="#" target="_main">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Zomato_Logo.svg/2500px-Zomato_Logo.svg.png" alt="Zomato"/></a>
+              <a class="navbar-brand flot-right text-danger" href="#">Account
+                <i class="fa-solid fa-user"></i>
+              </a>
+            </div>
+          </nav>
+    </header>
+    <div id="container">
+        <div id="filter">
+            <div class="text-center">
+                <h2 class="bg-light text-danger" >Filters</h2>
+            </div>
+            <div class=" foodType">
+                <h3 class=" text-center bg-light text-warning"> Food Type</h3>
+                <input type="radio" name="Food Type" > North-Indian <span>(120+)</span>
+                <br>
+                <input type="radio" name="Food Type" > South-Indian <span>(120+)</span>
+                <br>
+                <input type="radio"name="Food Type"> Fast Food <span>(500+)</span>
+                <br>
+                <input type="radio"name="Food Type"> BreakFast <span>(350+)</span>
+                <br>
+                <input type="radio"name="Food Type"> Lunch <span>(350+)</span>
+            </div>
+            <div class="  ammountFilter">
+                <h3 class="bg-light text-warning text-center"> Ammount Filter</h3>
+                <div class="ammountFilter">
+                    <input type="radio" name="Food Ammount"> Rs. 100 - 200
+                    <br>
+                    <input type="radio" name="Food Ammount"> Rs. 201 - 300
+                    <br>
+                    <input type="radio" name="Food Ammount"> Rs. 301 - 400
+                    <br>
+                    <input type="radio" name="Food Ammount"> Rs. 401 - 500
+                    <br>
+                    <input type="radio" name="Food Ammount"> Rs. 501 - 700
+                    <br>
+                    <input type="radio" name="Food Ammount"> Rs. 701 - 1000
+                </div>
+            </div>
+        </div>
+    
+
+        <div id="content">
+            <div class="resturent">
+                <img src="https://www.trodly.com/blog/wp-content/uploads/2018/10/Dum-Phukt-Kolkata.jpg" class="rounded-circle" alt="resturent-img">
+            </div>
+            <div class="resturentinfo ">
+                    <h1>Dum-Phukt-Kolkata</h1>
+                    <p>Near Eco Park,Kolkata </p>
+                    <span>Rating</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <p class="rs">Rs. 220</p>
+                    <div class="container  mt-3">
+                        <button type="button" class="button btn btn-primary">Order Now</button>
+                        <button type="button" class="button btn btn-info">Add Cart</button>
+                        <br>
+                        <button type="button" class="button btn btn-success">BreakFast</button>
+                        <button type="button" class="button btn btn-warning">Lunch</button>
+                        <button type="button" class="button btn btn-danger">Dinner</button>
+                        <button type="button" class="button btn btn-dark">Drink</button>
+                    </div>
+            </div>
+    </div>
+    <div id="content">
+                <div class="resturent">
+                    <img src="https://images.pexels.com/photos/580613/pexels-photo-580613.jpeg" class="rounded-circle" alt="resturent-img">
+                </div>
+                <div class="resturentinfo">
+                        <h1>Blue-and-Beyond Restaurant</h1>
+                        <p> Sector V, NewTown Kolkata </p>
+                        <span>Rating</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <p class="rs">Rs. 299</p>
+                        <div class="container  mt-3">
+                            <button type="button" class="button btn btn-primary">Order Now</button>
+                            <button type="button" class="button btn btn-info">Add Cart</button>
+                            <br>
+                            <button type="button" class="button btn btn-success">BreakFast</button>
+                            <button type="button" class="button btn btn-warning">Lunch</button>
+                            <button type="button" class="button btn btn-danger">Dinner</button>
+                            <button type="button" class="button btn btn-dark">Drink</button>
+                        </div>
+                </div>
+        </div>
+        <div id="content">
+                <div class="resturent">
+                    <img src="https://images.pexels.com/photos/1383776/pexels-photo-1383776.jpeg"class="rounded-circle" alt="resturent-img">
+                </div>
+                <div class="resturentinfo">
+                        <h1>Poma - The Food Restaurant</h1>
+                        <p>CC IV, NewTown, Kolkata </p>
+                        <span>Rating</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <p class="rs">Rs. 329</p>
+                        <div class="container  mt-3">
+                            <button type="button" class="button btn btn-primary">Order Now</button>
+                            <button type="button" class="button btn btn-info">Add Cart</button>
+                            <br>
+                            <button type="button" class="button btn btn-success">BreakFast</button>
+                            <button type="button" class="button btn btn-warning">Lunch</button>
+                            <button type="button" class="button btn btn-danger">Dinner</button>
+                            <button type="button" class="button btn btn-dark">Drink</button>
+                        </div>
+                </div>
+        </div>
+        <div id="content">
+            <div class="resturent">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/1c/30/2b/45/a-relaxed-outdoor-space.jpg" class="rounded-circle"alt="resturent-img">
+            </div>
+            <div class="resturentinfo">
+                    <h1>Vertex - The Liquid Restaurant</h1>
+                    <p>NC Park,NewTown,Kolkata </p>
+                    <span>Rating</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <p class="rs">Rs. 350</p>
+                    <div class="container  mt-3">
+                        <button type="button" class="button btn btn-primary">Order Now</button>
+                        <button type="button" class="button btn btn-info">Add Cart</button>
+                        <br>
+                        <button type="button" class="button btn btn-success">BreakFast</button>
+                        <button type="button" class="button btn btn-warning">Lunch</button>
+                        <button type="button" class="button btn btn-danger">Dinner</button>
+                        <button type="button" class="button btn btn-dark">Drink</button>
+                    </div>
+            </div>
+        </div>
+        <div id="content">
+            <div class="resturent">
+                <img src="https://images.pexels.com/photos/365459/pexels-photo-365459.jpeg"class="rounded-circle" alt="resturent-img">
+            </div>
+            <div class="resturentinfo">
+                    <h1>Pizza Hut </h1>
+                    <p>Goria Metro, Kolkata </p>
+                    <span>Rating</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <p class="rs">Rs. 200</p>
+                    <div class="container  mt-3">
+                        <button type="button" class="button btn btn-primary">Order Now</button>
+                        <button type="button" class="button btn btn-info">Add Cart</button>
+                        <br>
+                        <button type="button" class="button btn btn-success">BreakFast</button>
+                        <button type="button" class="button btn btn-warning">Lunch</button>
+                        <button type="button" class="button btn btn-danger">Dinner</button>
+                        <button type="button" class="button btn btn-dark">Drink</button>
+                    </div>
+            </div>
+        </div>
+        <div id="content">
+            <div class="resturent">
+                <img src="https://images.pexels.com/photos/239975/pexels-photo-239975.jpeg"class="rounded-circle" alt="resturent-img">
+            </div>
+            <div class="resturentinfo">
+                    <h1>Casult Food Cafeteria</h1>
+                    <p>125B,Center-2,Pune </p>
+                    <span>Rating</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p class="rs">Rs. 250</p>
+                    <div class="container  mt-3">
+                        <button type="button" class="button btn btn-primary">Order Now</button>
+                        <button type="button" class="button btn btn-info">Add Cart</button>
+                        <br>
+                        <button type="button" class="button btn btn-success">BreakFast</button>
+                        <button type="button" class="button btn btn-warning">Lunch</button>
+                        <button type="button" class="button btn btn-danger">Dinner</button>
+                        <button type="button" class="button btn btn-dark">Drink</button>
+                    </div>
+            </div>
+        </div>  
+    </div>
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+      
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+      
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Zomato
+                </h6>
+                <p>
+                    Zomato is an Indian multinational restaurant aggregator and food delivery company founded by Deepinder Goyal and Pankaj Chaddah in 2008. Zomato provides information, menus and user-reviews of restaurants as well as food delivery options from partner restaurants in select cities..
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Products
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Angular</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">React</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Vue</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Laravel</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Useful links
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Pricing</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Settings</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Orders</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Help</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fas fa-home me-3"></i> Kolkata, WB 700002, IN</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  uf00786@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 91 9775478802</p>
+                <p><i class="fas fa-print me-3"></i> + 91 7001033674</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2022 Copyright:
+          <a class="text-reset fw-bold" href="https://zomato.com/">Zomato</a>
+        </div>
+        <div class="text-center p-1" style="background-color: rgba(0, 0, 0, 0.05);">
+        
+            <h4>&copy; Create By: Umar Faruque &hearts; </h4>
+          </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+      
+</body>
+</html>
